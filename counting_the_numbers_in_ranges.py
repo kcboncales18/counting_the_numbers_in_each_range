@@ -31,5 +31,5 @@ def get_the_range(numbers):
         range_category["range_5"] +=1
     else:
        numbers<=1 and numbers>=50
-       print("Invalid.")  #will_print_invalid
-       print("range counts:",range_category) #will_display_the_range_counts_and_category
+       print("Invalid.")  #will_print_Invalid
+       print("range counts :",range_category) #will_display_the_range_counts_and_category
