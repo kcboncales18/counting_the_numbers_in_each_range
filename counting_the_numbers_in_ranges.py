@@ -17,7 +17,7 @@ def asking_user():
     print("Error.")
     return None
   
-  #determining_the_range_category_of_the_numbers
+#determining_the_range_category_of_the_numbers
 def get_the_range(numbers):
     if numbers>=1 and numbers<= 10:
         range_category["range_1"] +=1  #updates_the_dictionary
@@ -29,5 +29,7 @@ def get_the_range(numbers):
         range_category["range_4"] +=1
     elif numbers>=41 and numbers<=50:
         range_category["range_5"] +=1
-
-   
+    else:
+       numbers<=1 and numbers>=50
+       print("Invalid.")  #will_print_invalid
+       print("range counts:",range_category) #will_display_the_range_counts_and_category
