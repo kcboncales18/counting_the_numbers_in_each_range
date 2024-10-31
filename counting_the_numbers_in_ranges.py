@@ -32,4 +32,13 @@ def get_the_range(numbers):
     else:
        numbers<=1 and numbers>=50
        print("Invalid.")  #will_print_Invalid
-       print("range counts :",range_category) #will_display_the_range_counts_and_category
+       print("range count: ",range_category) #will_display_the_range_counts_and_category
+#continously_ask_the_user
+while True:
+   numbers = asking_user()
+   if numbers is None: 
+      continue
+   if numbers ==0:
+      print(range_category)
+      break
+   get_the_range(numbers)
