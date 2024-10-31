@@ -16,3 +16,18 @@ def asking_user():
   except:
     print("Error.")
     return None
+  
+  #determining_the_range_category_of_the_numbers
+def get_the_range(numbers):
+    if numbers>=1 and numbers<= 10:
+        range_category["range_1"] +=1  #updates_the_dictionary
+    elif numbers>=11 and numbers<=20:
+        range_category["range_2"] +=1
+    elif numbers>=21 and numbers<=30:
+        range_category["range_3"] +=1
+    elif numbers>=31 and numbers<=40:
+        range_category["range_4"] +=1
+    elif numbers>=41 and numbers<=50:
+        range_category["range_5"] +=1
+
+   
